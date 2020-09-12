@@ -1,0 +1,9 @@
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/bin/Debug/netstandard2.0/OdeToFood.Core.deps.json
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/bin/Debug/netstandard2.0/OdeToFood.Core.dll
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/bin/Debug/netstandard2.0/OdeToFood.Core.pdb
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/obj/Debug/netstandard2.0/OdeToFood.Core.csprojAssemblyReference.cache
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/obj/Debug/netstandard2.0/OdeToFood.Core.AssemblyInfoInputs.cache
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/obj/Debug/netstandard2.0/OdeToFood.Core.AssemblyInfo.cs
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/obj/Debug/netstandard2.0/OdeToFood.Core.csproj.CoreCompileInputs.cache
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/obj/Debug/netstandard2.0/OdeToFood.Core.dll
+/home/nik/Desktop/OdeToFood/OdeToFood.Core/obj/Debug/netstandard2.0/OdeToFood.Core.pdb

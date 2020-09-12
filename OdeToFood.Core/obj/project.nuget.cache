@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XsXjMfUczlI+ZlNWx1NB+YvHTHjYNbC6V2qU2MueXMy9XeEchhBeAhITqwhUQISTZeJH5knDgq/3JGvqrmYYIA==",
+  "success": true,
+  "projectFilePath": "/home/nik/Desktop/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/nik/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/nik/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
