@@ -24,10 +24,17 @@ namespace OdeToFood.Pages.Restaurants
         public IActionResult OnGet(int? restaurantId)
         {
             UpdateCuisines();
+            // Check if there was an id passed
             if(restaurantId.HasValue)
             {
                 // Querying the datastream, loading it into our object
                 RestaurantOnPage = restaurantData.GetById(restaurantId);
+            }
+            else
+            {
+                // We need to create a new restaurant
+                RestaurantOnPage = new Restaurant();
+                
             }
 
             if(RestaurantOnPage == null)

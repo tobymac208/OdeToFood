@@ -14,8 +14,8 @@ namespace OdeToFood.Data
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
         Restaurant GetById(int? id);
         Restaurant Update(Restaurant restaurant);
-        int Commit();
         void Create(Restaurant newRestaurant);
+        int Commit();
     }
 
     public class InMemoryRestaurantData : IRestaurantData
