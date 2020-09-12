@@ -14412,11 +14412,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/nik/Desktop/OdeToFood/OdeToFood/Pages/Restaurants/Create.cshtml",
-      "TargetPath": "Pages\\Restaurants\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/nik/Desktop/OdeToFood/OdeToFood/Pages/Restaurants/Detail.cshtml",
       "TargetPath": "Pages\\Restaurants\\Detail.cshtml",
       "FileKind": "mvc"

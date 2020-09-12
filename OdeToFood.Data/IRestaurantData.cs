@@ -12,7 +12,7 @@ namespace OdeToFood.Data
         /// <param name="name"></param>
         /// <returns>A list of items, depending on if there's a name passed or not.</returns>
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
-        Restaurant GetById(int id);
+        Restaurant GetById(int? id);
         Restaurant Update(Restaurant restaurant);
         int Commit();
         void Create(Restaurant newRestaurant);
@@ -47,7 +47,7 @@ namespace OdeToFood.Data
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public Restaurant GetById(int id)
+        public Restaurant GetById(int? id)
         {
             return restaurants.SingleOrDefault(r => r.Id == id);
         }

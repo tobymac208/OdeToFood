@@ -21,11 +21,14 @@ namespace OdeToFood.Pages.Restaurants
             this.htmlHelper = htmlHelper;
         }
 
-        public IActionResult OnGet(int restaurantId)
+        public IActionResult OnGet(int? restaurantId)
         {
             UpdateCuisines();
-            // Querying the datastream, loading it into our object
-            RestaurantOnPage = restaurantData.GetById(restaurantId);
+            if(restaurantId.HasValue)
+            {
+                // Querying the datastream, loading it into our object
+                RestaurantOnPage = restaurantData.GetById(restaurantId);
+            }
 
             if(RestaurantOnPage == null)
             {
